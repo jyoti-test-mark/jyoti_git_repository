@@ -1,6 +1,6 @@
 const {test,expect} = require("@playwright/test")
 
-test("Login to swag lab", async function({page}){
+test("Login to swag labs", async function({page}){
 
     await page.goto("https://www.saucedemo.com/")
     await page.getByPlaceholder("Username").type("standard_user")
